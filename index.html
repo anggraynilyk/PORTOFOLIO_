@@ -1,102 +1,99 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Anggrayni Portfolio</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Anggrayni Portfolio</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
 
-    <!-- Icons -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet"
-    />
+  <!-- Icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    rel="stylesheet"
+  />
 
-    <!-- Tailwind -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <script>
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              primary: {
-                50: "#fdf2f8",
-                100: "#fce7f3",
-                200: "#fbcfe8",
-                300: "#f9a8d4",
-                400: "#f472b6",
-                500: "#ec4899",
-                600: "#db2777",
-                700: "#be185d",
-                800: "#9d174d",
-                900: "#831843",
-              },
-            },
-            fontFamily: {
-              sans: ["Plus Jakarta Sans", "sans-serif"],
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: "#fdf2f8",
+              100: "#fce7f3",
+              200: "#fbcfe8",
+              300: "#f9a8d4",
+              400: "#f472b6",
+              500: "#ec4899",
+              600: "#db2777",
+              700: "#be185d",
             },
           },
+          fontFamily: {
+            sans: ["Plus Jakarta Sans", "sans-serif"],
+          },
         },
-      };
-    </script>
-  </head>
+      },
+    };
+  </script>
+</head>
 
-  <body class="font-sans bg-primary-50 text-neutral-700 antialiased">
-    <div class="min-h-screen flex flex-col">
+<body class="font-sans bg-primary-50 text-neutral-700 antialiased">
+  <div class="min-h-screen flex flex-col">
 
-      <!-- HEADER -->
-      <header class="sticky top-0 z-50 bg-white border-b px-6 py-4 flex justify-between items-center">
-        <h1 class="text-xl font-bold text-neutral-800">
-          Portofolio<span class="text-primary-500">.dev</span>
-        </h1>
+    <!-- HEADER -->
+    <header class="sticky top-0 z-50 bg-white border-b px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-neutral-800">
+        Portofolio<span class="text-primary-500">.dev</span>
+      </h1>
 
-        <nav class="hidden md:flex gap-4">
-          <a href="index.html" class="px-4 py-2 bg-primary-600 text-white rounded-full">Home</a>
-          <a href="profile.html" class="px-4 py-2 hover:text-primary-600">Profile</a>
-          <a href="skill.html" class="px-4 py-2 hover:text-primary-600">Skill</a>
-          <a href="experience.html" class="px-4 py-2 hover:text-primary-600">Experience</a>
-          <a href="contact.html" class="px-4 py-2 hover:text-primary-600">Contact</a>
-        </nav>
-      </header>
+      <nav class="hidden md:flex gap-4">
+        <a href="index.html" class="px-4 py-2 rounded-full bg-primary-600 text-white">Home</a>
+        <a href="profile.html" class="px-4 py-2 hover:text-primary-600">Profile</a>
+        <a href="skill.html" class="px-4 py-2 hover:text-primary-600">Skill</a>
+        <a href="experience.html" class="px-4 py-2 hover:text-primary-600">Experience</a>
+        <a href="contact.html" class="px-4 py-2 hover:text-primary-600">Contact</a>
+      </nav>
+    </header>
 
-      <!-- MAIN -->
-      <main class="flex-grow flex items-center justify-center px-6 py-20 text-center">
-        <div class="max-w-3xl">
-          <h2 class="text-5xl md:text-7xl font-extrabold text-neutral-900 mb-6">
-            Hello, I'm
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">
-              Anggrayni
-            </span>
-          </h2>
+    <!-- MAIN -->
+    <main class="flex-grow flex items-center justify-center px-6 py-20 text-center">
+      <div class="max-w-3xl">
+        <h2 class="text-5xl md:text-7xl font-extrabold text-neutral-900 mb-6">
+          Hello, I'm
+          <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-primary-700">
+            Anggrayni
+          </span>
+        </h2>
 
-          <p class="text-xl text-neutral-600 mb-10">
-            Informatics Engineering Student seeking internship opportunities as a Developer.
-            This portfolio showcases my projects, skills, and learning experience.
-          </p>
+        <p class="text-xl text-neutral-600 mb-10">
+          Informatics Engineering Student seeking internship opportunities as a Developer.
+          This portfolio showcases my projects, skills, and learning experience.
+        </p>
 
-          <!-- BUTTON FIXED -->
-          <a
-            href="profile.html"
-            class="inline-block px-8 py-4 bg-primary-600 text-white font-bold rounded-xl shadow-lg hover:bg-primary-700 transition"
-          >
-            View Portfolio
-          </a>
-        </div>
-      </main>
+        <!-- BUTTON -->
+        <a
+          href="profile.html"
+          class="inline-block px-8 py-4 bg-primary-600 text-white font-bold rounded-xl shadow-lg hover:bg-primary-700 transition"
+        >
+          View Portfolio
+        </a>
+      </div>
+    </main>
 
-      <!-- FOOTER -->
-      <footer class="text-center py-6 text-sm text-neutral-500 border-t bg-white">
-        © 2026 Anggrayni. Designed with ♥
-      </footer>
+    <!-- FOOTER -->
+    <footer class="text-center py-6 text-sm text-neutral-500 border-t bg-white">
+      © 2026 Anggrayni. Designed with ♥
+    </footer>
 
-    </div>
-  </body>
+  </div>
+</body>
 </html>
